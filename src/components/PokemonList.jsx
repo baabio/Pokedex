@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 
-const Cards = () => {
+const PokemonList = () => {
     const [pokemons, setPokemons] = useState([]);
     useEffect ( () => {
-        axios.get('https://pokebuildapi.fr/api/v1/pokemon/limit/10').then(response =>{
+        axios.get('https://pokebuildapi.fr/api/v1/pokemon/limit/20').then(response =>{
             console.log(response.data)
             setPokemons(response.data)
         })
@@ -20,8 +20,7 @@ const Cards = () => {
       ))}
       </div>
     </div>
-
   )
 }
 
-export default Cards
+export default PokemonList
