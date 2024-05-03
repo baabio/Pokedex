@@ -1,5 +1,5 @@
 .chercher {
-    margin-top: 8%;
+    margin-top: 6%;
     margin-left: 40%;
   }
 
@@ -9,3 +9,21 @@
     margin: 22px;
     border-radius: 15px;
   }
+
+  .btn:hover {
+    background-color: yellow;
+    color: blue;
+    margin: 22px;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
+  .bouton {
+    border-radius: 10px;
+    background-color: rgb(161, 158, 158,);
+    color: black;
+  }
+
+.navbar {
+    background-color: rgba(24, 24, 172, 4.781);
+}
