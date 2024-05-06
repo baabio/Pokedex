@@ -26,6 +26,7 @@ body {
     border-radius: 10px;
     background-color: rgb(161, 158, 158,);
     color: black;
+    align-items: center;
   }
 
 .navbar {
@@ -36,11 +37,24 @@ body {
     margin-left: 42%;
 }
 
+.baba:hover {
+    box-shadow:  0.91px 0.91px 2px #b4aa20, -0.91px -0.91px 1px #bdba23, 
+    inset 0.91px 0.91px 1px #475899, inset -0.91px -0.91px 1px #4c69b8; 
+}
+
 .btns {
     background-color: blue;
-    color: white;
-    margin-left: 35%;
+    color: rgb(240, 225, 12);
+    margin-left: 39%;
     border-radius: 5px;
+}
+
+.btns:hover {
+    color: blue;
+    background-color: wheat;
+    margin-left: 39%;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .card {
@@ -51,8 +65,8 @@ body {
 }
 
 .card:hover {
-    box-shadow:  2.91px 2.91px 5px #b4aa20, -2.91px -2.91px 2px #bdba23, 
-    inset 2.91px 2.91px 2px #475899, inset -2.91px -2.91px 2px #4c69b8; 
+    box-shadow:  5.91px 2.91px 5px #ad91a7, -0.91px -0.91px 2px #925e7d, 
+    inset 1.91px 1.91px 2px #475899, inset -1.91px -1.91px 2px #4c69b8; 
 }
 
 .card-title {
@@ -63,9 +77,17 @@ body {
     text-align: center;
 }
 
-.babac {
-    margin-left:7px;
+.pouvoir {
+    margin-left:33px;
     border-radius: 25px;
     background-color: rgba(131, 125, 125, 0.726);
     font-style: italic;
+}
+
+.pouvoir:hover {
+    font-weight: bold;
+    color: bisque;
+    background-color: rgb(214, 103, 103);
+    box-shadow:  0.91px 0.91px 2px #ad91a7, -0.91px -0.91px 2px #925e7d, 
+    inset 0.91px 0.91px 2px #b74dbb, inset -1.91px -1.91px 2px #b149b4; 
 }

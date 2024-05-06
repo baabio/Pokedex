@@ -14,7 +14,7 @@ const Liste = () => {
         <>
         <div>
             {types.map((type, index) => (
-                <button className='babac' key={index}>{type.name}</button>
+                <button className='pouvoir' key={index}>{type.name}</button>
             ))}
         </div>
         <br />
