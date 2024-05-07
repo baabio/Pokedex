@@ -34,7 +34,7 @@ body {
 }
 
 .baba {
-    margin-left: 42%;
+    margin-left: 45%;
 }
 
 .baba:hover {
@@ -45,27 +45,29 @@ body {
 .btns {
     background-color: blue;
     color: rgb(240, 225, 12);
-    margin-left: 39%;
+    margin-left: 34%;
     border-radius: 5px;
 }
 
 .btns:hover {
     color: blue;
     background-color: wheat;
-    margin-left: 39%;
+    margin-left: 34%;
     border-radius: 5px;
     font-weight: bold;
+    box-shadow:  2.91px 2.91px 4px #061774, -2.91px -2.91px 4px hsl(219, 31%, 59%); 
 }
 
 .card {
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 3%;
-    background-color: rgba(255, 255, 0, 0.678);
+    background-color: rgba(235, 235, 53, 0.678);
+    cursor: pointer;
 }
 
 .card:hover {
-    box-shadow:  5.91px 2.91px 5px #ad91a7, -0.91px -0.91px 2px #925e7d, 
+    box-shadow:  5.91px 2.91px 5px #ad91a7, -0.91px -0.91px 2px hsl(324, 22%, 47%), 
     inset 1.91px 1.91px 2px #475899, inset -1.91px -1.91px 2px #4c69b8; 
 }
 
@@ -75,10 +77,34 @@ body {
 
 .card-text {
     text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow:  0.91px 0.91px 4px #6370b9, -0.91px -0.91px 4px hsl(219, 31%, 59%); 
+    bottom: 5px;
+    margin-left: 43%;
+}
+
+.card-text:hover {
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow:  3.91px 3.91px 4px #061774, -3.91px -3.91px 4px hsl(219, 31%, 59%); 
+    bottom: 5px;
+    margin-left: 43%;
 }
 
 .pouvoir {
-    margin-left:33px;
+    margin-left:32px;
     border-radius: 25px;
     background-color: rgba(131, 125, 125, 0.726);
     font-style: italic;
@@ -90,4 +116,33 @@ body {
     background-color: rgb(214, 103, 103);
     box-shadow:  0.91px 0.91px 2px #ad91a7, -0.91px -0.91px 2px #925e7d, 
     inset 0.91px 0.91px 2px #b74dbb, inset -1.91px -1.91px 2px #b149b4; 
+}
+
+.photo {
+    margin-left: 36%;
+    margin-top: 6%;
+    
+}
+
+.nom {
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+    color: rgb(27, 35, 105);
+
+}
+
+.cards {
+    width: 18rem;
+}
+
+img {
+    box-shadow:  5.91px 2.91px 5px #ad91a7, -0.91px -0.91px 2px hsl(324, 22%, 47%), 
+    inset 1.91px 1.91px 2px #475899, inset -1.91px -1.91px 2px #4c69b8; 
+    background-color: rgb(243, 243, 52);
+}
+
+.cardS
+{
+    display: grid;
 }
