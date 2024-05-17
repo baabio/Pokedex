@@ -24,7 +24,7 @@ const Cartes = () => {
                             <div className="card-body" key={index}>
                                 <h5 className="card-title"> {pokemon.name} </h5>
                                 <p className="card-text" >x{pokemon.id}</p>
-                                <Link to={`/pokemon/${pokemon.id}`}  ><button className='btns'>View details</button></Link>
+                                <Link to={`/pokemon/${pokemon.id}`}  ><button className='btns'>Voir {pokemon.name}</button></Link>
                             </div>
                         </div>
                     </div>
