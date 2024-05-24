@@ -7,7 +7,7 @@ import Navbar from './Navbar'
 const Cartes = () => {
     const [pokemons, setPokemons] = useState([]);
     useEffect ( () => {
-        axios.get('https://pokebuildapi.fr/api/v1/pokemon/limit/36').then(response =>{
+        axios.get('https://pokebuildapi.fr/api/v1/pokemon/limit/100').then(response =>{
             console.log(response.data)
             setPokemons(response.data)
         })
